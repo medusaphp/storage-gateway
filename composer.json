@@ -1,0 +1,23 @@
+{
+  "name": "medusa/storage-gateway",
+  "authors": [
+    {
+      "name": "Pascal Schnell",
+      "email": "pascal.schnell@getmedusa.org"
+    }
+  ],
+  "description": "storage-gateway",
+  "license": "MIT",
+  "require": {
+    "medusa/http-simple": "*",
+    "php": ">=8.0"
+  },
+  "require-dev": {
+    "medusa/dev-tools-alias": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Medusa\\StorageGateway\\": "src"
+    }
+  }
+}
